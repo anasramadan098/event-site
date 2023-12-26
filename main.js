@@ -2,9 +2,9 @@
 
 // Get All Elements With Scroll Classes
 document.querySelectorAll('.slide-left,.slide-top,.slide-right,.slide-bottom').forEach(e => {
-    
 
     // Remove All 
+    
 
     // Get It's Sreen Y 
     const scrollElement = e.scrollHeight;

@@ -1,5 +1,5 @@
 :root {
-    --main-color:#1c5863;
+    --main-color:#987e2e;
     --second-color : #000;
     --third-color:#fff;
     --transition : .6s;
@@ -386,7 +386,7 @@ h2.title {
 /* Start Contact */
 .contact {
     min-height: 30vh;
-    background: url(imgs/bg-3.jpeg);
+    background: url(imgs/bg-3.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -651,8 +651,7 @@ footer p.copyright::before {
 
 /* MEDIA */
 @media (max-width:767px) {
-    header {
-        flex-direction: column;
+    header{
         justify-content: center;
         gap: 10px;
         max-height: none;
@@ -672,6 +671,30 @@ footer p.copyright::before {
     .welcome p {
         padding: 0;
     }
+    .about,
+    .abouts .cards,
+    header,
+    .contact-page {
+        flex-direction: column;
+    }
+    .about .text  {
+        width: 100%;
+        text-align: center;
+    }
+    .about img {
+        margin: 0;
+        max-width: 100%;
+    } 
+    .abouts .cards .card{
+        max-width: 100%;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .contact-page {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
 
 }
 footer p {
@@ -685,7 +708,7 @@ footer p {
     background-image: url(imgs/bg-4.JPG) !important;
 }
 .welcome.contactPage {
-    background-image: url(imgs/bg-3.jpeg) !important;
+    background-image: url(imgs/bg-3.jpg) !important;
 }
 .welcome.servicesPage {
     background-image: url(imgs/bg-2.JPG) !important;
