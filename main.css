@@ -70,7 +70,7 @@ header ul a:hover {
 /* Start Welcome Section */
 .welcome {
     min-height: 90vh;
-    background: url(imgs/bg-1.jpg);
+    background: url(imgs/bg--1.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -720,7 +720,7 @@ footer p {
     background-image: url(imgs/bg-3.jpg) !important;
 }
 .welcome.servicesPage {
-    background-image: url(imgs/bg-2.JPG) !important;
+    background-image: url(imgs/bg--3.JPG) !important;
 }
 
 /* Animations */
