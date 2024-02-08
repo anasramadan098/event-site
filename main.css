@@ -48,7 +48,7 @@ header ul a::before {
     position: absolute;
     left: 0;
     bottom: -5px;
-    background-color: #987e2e;
+    background-color: #ddd;
     width: 0%;
     height: 4px;
     border-radius: 10px;
@@ -59,7 +59,7 @@ header ul a:hover::before {
     right: 0;
 }
 header ul a:hover {
-    color: #987e2e;
+    color: #ddd;
 }
 /* End Header */
 /* Start Welcome Section */
