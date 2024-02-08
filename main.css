@@ -344,6 +344,7 @@ h2.title {
     margin: 20px 0;
     font-weight: bold;
     font-size: 1.5em;
+    transition-delay: .2s;
 }
 .services .card a {
     color: var(--second-color);
@@ -584,8 +585,10 @@ footer p.copyright::before {
     font-weight: 600;
     color: #1f194c;
     margin: 1em 0;
+	   transition-delay: .2s;
   }
   p {
+	   transition-delay: .2s;
     color: #575a7b;
     font-size: 15px;
     line-height: 1.6;
@@ -602,12 +605,14 @@ footer p.copyright::before {
     display: grid;
     place-items: center;
     transition: 0.5s;
+	   transition-delay: .2s;
   }
   .card:hover {
     background-position: 0 100%;
   }
   .card p.heading {
     transition: .3s;
+   transition-delay: .2s;
   }
   .card:hover p.heading,
   .card:hover i {
