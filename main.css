@@ -486,9 +486,8 @@ h2.title {
 .contact-page .box a:hover::before {
     width: 100%;
 }
-.contact-page iframe {
-    width: 80%;
-    min-height: 300px;
+.contact-page .iframe {
+    font-size:2em;
 }
 .welcome.seconde {
     min-height: 50vh !important;
