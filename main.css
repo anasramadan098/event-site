@@ -533,7 +533,7 @@ footer ul.social i:hover {
 }
 footer p{
     color: var(--third-color);
-    margin: 20px 0;
+    margin: 20px;
 }
 footer p.copyright {
     font-size: 1.1rem;
